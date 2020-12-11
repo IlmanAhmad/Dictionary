@@ -1,0 +1,28 @@
+                                !! Dictionary !!
+
+There are two programs in this project.
+
+1. The main_prog will give you one random word with its meaning notification.
+2. The dict_api program will take word as input and hit the urban dictionary API to bring its meaning back.
+
+Installation requirements :-
+pip install -r requirements.txt
+
+Steps to use :-
+1. Create a Folder of the project and download all the files from this project.
+2. Open command prompt and navigate to directory path where you downloaded the files.
+3. Run the above installation requirement command to install the pre-requisites to run this program.
+4. Schedule the tasks using windows task scheduler for main_prog.py.
+
+dict_api :-
+1. You need to create a config file in your project and store the API key and host name there.(reference - https://rapidapi.com)
+2. Execute the program from your terminal.
+
+
+Steps to schedule Windows task :-
+1. Create Your First Task. Search for “Task Scheduler”.
+2. Create an Action. Go to Actions > New.
+3. Add the Python Executable File to the Program Script.
+4. Add the Path to Your Python Script in the Arguments.
+5. Create a Trigger. Go to Triggers > New.
+6. Test your task schedule. Select the task name > Run.

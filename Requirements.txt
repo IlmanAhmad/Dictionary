@@ -1,0 +1,4 @@
+pandas
+pygame
+win10toast
+requests
